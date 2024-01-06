@@ -98,7 +98,7 @@
 					handler({ id: this._itemId(event.target), title: event.target.value });
 				}
 			});
-			// Event handler for when the Enter key is pressed
+
 			$delegate(this.$todoList, 'li .edit', 'keypress', event => {
 				if (event.keyCode === this.ENTER_KEY) {
 					event.target.blur();
@@ -122,9 +122,15 @@
 				newTodo: () => $on(this.$newTodo, 'change', () => handler(this.$newTodo.value)),
 				removeCompleted: () => $on(this.$clearCompleted, 'click', () => handler()),
 				toggleAll: () => $on(this.$toggleAll, 'click', () => handler({ completed: this.$toggleAll.checked })),
-				itemEdit: () => $delegate(this.$todoList, 'li label', 'dblclick', () => handler({ id: this._itemId(event.target) })),
-				itemRemove: () => $delegate(this.$todoList, '.destroy', 'click', () => handler({ id: this._itemId(event.target) })),
-				itemToggle: () => $delegate(this.$todoList, '.toggle', 'click', () => handler({ id: this._itemId(event.target), completed: event.target.checked })),
+				itemEdit: () => $delegate(this.$todoList, 'li label', 'dblclick', event => {
+					handler({ id: this._itemId(event.target) });
+				}),
+				itemRemove: () => $delegate(this.$todoList, '.destroy', 'click', event => {
+					handler({ id: this._itemId(event.target) });
+				}),
+				itemToggle: () => $delegate(this.$todoList, '.toggle', 'click', event => {
+					handler({ id: this._itemId(event.target), completed: event.target.checked });
+				}),
 				itemEditDone: () => this._bindItemEditDone(handler),
 				itemEditCancel: () => this._bindItemEditCancel(handler)
 			};
