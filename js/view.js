@@ -117,22 +117,31 @@ class View {
 	}
 
 	bind(event, handler) {
-		if (event === 'newTodo') {
-			$on(this.$newTodo, 'change', () => handler(this.$newTodo.value));
-		} else if (event === 'removeCompleted') {
-			$on(this.$clearCompleted, 'click', () => handler());
-		} else if (event === 'toggleAll') {
-			$on(this.$toggleAll, 'click', event => handler({ completed: event.target.checked }));
-		} else if (event === 'itemEdit') {
-			$delegate(this.$todoList, 'li label', 'dblclick', event => handler({ id: this._itemId(event.target) }));
-		} else if (event === 'itemRemove') {
-			$delegate(this.$todoList, '.destroy', 'click', event => handler({ id: this._itemId(event.target) }));
-		} else if (event === 'itemToggle') {
-			$delegate(this.$todoList, '.toggle', 'click', event => handler({ id: this._itemId(event.target), completed: event.target.checked }));
-		} else if (event === 'itemEditDone') {
-			this._bindItemEditDone(handler);
-		} else if (event === 'itemEditCancel') {
-			this._bindItemEditCancel(handler);
+		switch (event) {
+			case 'newTodo':
+				$on(this.$newTodo, 'change', () => handler(this.$newTodo.value));
+				break;
+			case 'removeCompleted':
+				$on(this.$clearCompleted, 'click', () => handler());
+				break;
+			case 'toggleAll':
+				$on(this.$toggleAll, 'click', event => handler({ completed: event.target.checked }));
+				break;
+			case 'itemEdit':
+				$delegate(this.$todoList, 'li label', 'dblclick', event => handler({ id: this._itemId(event.target) }));
+				break;
+			case 'itemRemove':
+				$delegate(this.$todoList, '.destroy', 'click', event => handler({ id: this._itemId(event.target) }));
+				break;
+			case 'itemToggle':
+				$delegate(this.$todoList, '.toggle', 'click', event => handler({ id: this._itemId(event.target), completed: event.target.checked }));
+				break;
+			case 'itemEditDone':
+				this._bindItemEditDone(handler);
+				break;
+			case 'itemEditCancel':
+				this._bindItemEditCancel(handler);
+				break;
 		}
 	}
 }
