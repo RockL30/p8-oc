@@ -10,6 +10,7 @@ class Controller {
 		this.view = view;
 
 		// Bind events to view actions
+		// use of bind to set the context of this
 		this.view.bind('newTodo', title => this.addItem(title));
 		this.view.bind('itemEdit', item => this.editItem(item.id));
 		this.view.bind('itemEditDone', item => this.editItemSave(item.id, item.title));
