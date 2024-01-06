@@ -4,14 +4,14 @@
 	'use strict';
 
 	/**
-	     * View that abstracts away the browser's DOM completely.
-	     * It has two simple entry points:
-	     *
-	     *   - bind(eventName, handler)
-	     *     Takes a todo application event and registers the handler
-	     *   - render(command, parameterObject)
-	     *     Renders the given command with the options
-	     */
+		 * View that abstracts away the browser's DOM completely.
+		 * It has two simple entry points:
+		 *
+		 *   - bind(eventName, handler)
+		 *     Takes a todo application event and registers the handler
+		 *   - render(command, parameterObject)
+		 *     Renders the given command with the options
+		 */
 	function View(template) {
 		this.template = template;
 
@@ -165,7 +165,7 @@
 				this.dataset.iscanceled = true;
 				this.blur();
 
-				handler({id: self._itemId(this)});
+				handler({ id: self._itemId(this) });
 			}
 		});
 	};
@@ -184,17 +184,17 @@
 
 		} else if (event === 'toggleAll') {
 			$on(self.$toggleAll, 'click', function () {
-				handler({completed: this.checked});
+				handler({ completed: this.checked });
 			});
 
 		} else if (event === 'itemEdit') {
 			$delegate(self.$todoList, 'li label', 'dblclick', function () {
-				handler({id: self._itemId(this)});
+				handler({ id: self._itemId(this) });
 			});
 
 		} else if (event === 'itemRemove') {
 			$delegate(self.$todoList, '.destroy', 'click', function () {
-				handler({id: self._itemId(this)});
+				handler({ id: self._itemId(this) });
 			});
 
 		} else if (event === 'itemToggle') {
