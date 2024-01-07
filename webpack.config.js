@@ -1,10 +1,11 @@
 const path = require('path');
 
 module.exports = {
-    entry: './js/app.js', // Your main JavaScript file that includes other modules
+    mode: 'production',
+    entry: './js/app.js',
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist'), // Output directory
+        path: path.resolve(__dirname, 'dist'),
     },
     module: {
         rules: [
@@ -15,6 +16,16 @@ module.exports = {
             {
                 test: /\.(png|svg|jpg|gif)$/,
                 use: ['file-loader'],
+            },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/preset-env']
+                    }
+                }
             }
         ],
     },

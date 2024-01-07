@@ -2,23 +2,30 @@
 <html lang="en" data-framework="javascript">
   <head>
     <meta charset="utf-8" />
+    <!-- Missing viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Missing description -->
+    <meta name="description" content="Todo Project" />
     <title>To-do list app</title>
     <!-- <link rel="stylesheet" href="/node_modules/todomvc-common/base.css" />
     <link rel="stylesheet" href="/node_modules/todomvc-app-css/index.css" /> -->
   </head>
   <body>
-    <script src="dist/bundle.js"></script>
     <section class="todoapp">
       <header class="header">
         <h1>todos</h1>
+        <!-- missing id -->
         <input
           class="new-todo"
+          id="new-todo"
+          name="new-todo"
           placeholder="What needs to be done?"
-          autofocus
+          autofocus=""
         />
       </header>
       <section class="main">
-        <input class="toggle-all" type="checkbox" />
+        <!-- Fixed: missing id -->
+        <input class="toggle-all" type="checkbox" id="toggle-all" />
         <label for="toggle-all">Mark all as complete</label>
         <ul class="todo-list"></ul>
       </section>
@@ -50,6 +57,7 @@
     <script src="js/template.js"></script>
     <script src="js/view.js"></script>
     <script src="js/controller.js"></script>
-    <script src="js/app.js"></script>
+    <!-- <script src="js/app.js"></script> -->
+    <script type="module" src="dist/bundle.js"></script>
   </body>
 </html>
