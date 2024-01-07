@@ -10,6 +10,7 @@ class Controller {
 	constructor(model, view) {
 		this.model = model;
 		this.view = view;
+		this._activeRoute = ''; //added for test
 
 		this.view.bind('newTodo', title => {
 			this.addItem(title);
