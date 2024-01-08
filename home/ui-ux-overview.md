@@ -6,7 +6,7 @@
 
 Todo App: Start view
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Todo App, Start view </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Todo App, Start view </p></figcaption></figure>
 
 When we add a todo list item we can see:
 
@@ -19,12 +19,12 @@ When we add a todo list item we can see:
 
 Todo App: All Category
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Todo App, All Category</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Todo App, All Category</p></figcaption></figure>
 
 Todo App: Active Category
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Todo App, Active Category</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Todo App, Active Category</p></figcaption></figure>
 
 Todo App: Completed Category
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Todo App, Completed Category</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Todo App, Completed Category</p></figcaption></figure>
