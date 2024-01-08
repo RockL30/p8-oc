@@ -36,9 +36,10 @@ After:
 
 <figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p>After: removeItem in the store.js</p></figcaption></figure>
 
-The second version of the code is more simple, direct and removes the unnecessary iteration and logging.
+The second version of the code is more simple, direct and removes the unnecessary iteration and logging by directly calling the method on the model with the given `id`.&#x20;
 
-The second version directly calls the method on the model with the given `id`. Once the item is removed from the model, it updates the UI by calling the `render` method on the view . After updating the UI, it then calls the `_filter` method to re-apply any filters that might have been applied previously.
+\
+Once the item is removed from the model, the UI is updated by calling the `render` method on the view , then after updating the UI, it calls the `_filter` method to re-apply any filters that might have been applied previously.
 
 
 
