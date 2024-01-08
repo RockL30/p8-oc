@@ -1,4 +1,4 @@
-# Set up
+# Download and install dependencies
 
 **Note**: For this project we need to have node installed, [click here to find out more about node.js](https://nodejs.org/en).\
 
@@ -6,11 +6,11 @@
 1. &#x20;[Download the project here](https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/project-8-frontend/todo-list-project.zip)
 2. Open in Integrated Terminal: Go to the main folder of the project, then right click on the banner and choose the option 'Open in Integrated terminal'
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 3. npm install: On the Integrated terminal run the command "npm install" this command will install all the node\_modules and other dependencies that we need for our project
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 ```
 npm install
@@ -23,7 +23,7 @@ npm install
 We can now see our project in the Live Server:\
 
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 \
 IMPORTANT NOTE:\
