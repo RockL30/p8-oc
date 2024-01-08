@@ -191,7 +191,6 @@ describe('controller', function () {
 
 	describe('toggle all', function () {
 		// TODO: write test
-		// does this functionality exist in the first place? anyway here's the test
 		it('should toggle all todos to completed', function () {
 			// mock model with 3 todos
 			var todos = [
