@@ -6,11 +6,11 @@ in js/controller.js, we changed the addditem to additem
 
 Before
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>adddItem</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>adddItem</p></figcaption></figure>
 
 After
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 Todo IDs
 
@@ -18,11 +18,11 @@ In the js/store.js file, we modified the way the ID was generated to be more uni
 
 Before
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Before: save method in the store.js</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Before: save method in the store.js</p></figcaption></figure>
 
 After
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>After: save method in the store.js</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p>After: save method in the store.js</p></figcaption></figure>
 
 removeItem
 
@@ -30,11 +30,11 @@ Loop without action
 
 Before:
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Before: removeItem in the store.js</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Before: removeItem in the store.js</p></figcaption></figure>
 
 After:
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>After: removeItem in the store.js</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p>After: removeItem in the store.js</p></figcaption></figure>
 
 The second version of the code is more simple, direct and removes the unnecessary iteration and logging.
 

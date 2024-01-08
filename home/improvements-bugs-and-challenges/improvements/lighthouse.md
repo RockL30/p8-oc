@@ -15,27 +15,27 @@ Access Lightouse
 
 Press F12 or right clickand inspect the browser window
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Inspect page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Inspect page</p></figcaption></figure>
 
 Click Lighthouse
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Lighthouse</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Lighthouse</p></figcaption></figure>
 
 Click Analyze page load
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Analyze page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Analyze page</p></figcaption></figure>
 
 Note: Sometimes results may vary
 
 This is the final result, through Lighthouse we identified several small bugs and improvements in the diagnostics section.
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Lighthouse Results</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Lighthouse Results</p></figcaption></figure>
 
 Some Improvements include:
 
 * 404, I opted to comment out the link to the base.js in the index.html, since it was not providing any utility to the code(CHECK)
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```html
     <!-- <script src="node_modules/todomvc-common/base.js"></script> -->
