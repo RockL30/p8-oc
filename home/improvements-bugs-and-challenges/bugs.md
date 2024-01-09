@@ -4,6 +4,8 @@ addditem
 
 in js/controller.js, we changed the addditem to additem
 
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>addItem</p></figcaption></figure>
+
 Before
 
 <figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>adddItem</p></figcaption></figure>
@@ -16,6 +18,8 @@ Todo IDs
 
 In the js/store.js file, we modified the way the ID was generated to be more unique with date.
 
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+
 Before
 
 <figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Before: save method in the store.js</p></figcaption></figure>
@@ -26,7 +30,7 @@ After
 
 removeItem
 
-Loop without action
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 Before:
 
