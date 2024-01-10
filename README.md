@@ -1,4 +1,4 @@
-# Project number 8 of Front-End Developer Path from the OpenClassrooms
+# Project 8 of the OpenClassrooms Front-End Developer Path
 
 ## Overview
  - Analyze, debug, test, improve, and document an existing project.
