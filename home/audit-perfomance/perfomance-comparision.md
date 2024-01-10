@@ -1,7 +1,3 @@
----
-description: 41 Words
----
-
 # Perfomance Comparision
 
 Todos
@@ -16,4 +12,4 @@ Competitor
 
 
 
-In terms of score the Todo App is far superior when compared to the competitor, in all metrics except the Publisher Ads, since the Todo app currently does not have any this feature, therefore is not possible to evaluate.
+In terms of score the Todo App is far superior when compared to the competitor, in all metrics except the Publisher Ads, since the Todo app currently does not have any this feature, therefore is not possible to evaluate.(fix this later)
