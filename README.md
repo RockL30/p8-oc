@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Home
 
 ## Overview
@@ -8,6 +22,10 @@
 
 * Completed
 
-## Documentation
-* To see the documentation, [click here](https://todo-wiki.gitbook.io/todo-wiki/).
+### Note
 
+* This version of the project already contains some optimizations / improvements
+
+## Documentation
+
+* To see the documentation, [click here](https://todo-wiki.gitbook.io/todo-wiki/).
