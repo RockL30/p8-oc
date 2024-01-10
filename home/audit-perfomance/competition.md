@@ -1,6 +1,6 @@
-# ❓ Competition
+# Competition
 
-[Competetion website](https://todolistme.net/)
+[Competition website](https://todolistme.net/)
 
 \
 Overall:

@@ -1,8 +1,4 @@
----
-description: Ask about this
----
-
-# ❓ license
+# license
 
 Everything in this repo is MIT License unless otherwise specified.
 
