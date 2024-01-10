@@ -30,8 +30,8 @@ Verify the SpecRunner.html file, it should refer to ControllerSpec.js
 </html>
 ```
 
-Press 'Alt + L + O' to open the live view and see the results\
+Press '_**Alt + L + O**_' to open the _live view_ and see the results\
 
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Jasmine test results</p></figcaption></figure>
 

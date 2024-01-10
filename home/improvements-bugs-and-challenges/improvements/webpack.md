@@ -1,18 +1,18 @@
 # Webpack
 
-Install webpack
+**Install webpack**
 
 ```
 npm install --save-dev webpack
 ```
 
-Install babel-loader
+**Install babel-loader**
 
 ```
 npm install --save-dev @babel/core babel-loader @babel/preset-env
 ```
 
-create webpack.config.js
+**create webpack.config.js**
 
 ```javascript
 const path = require('path');
@@ -49,7 +49,7 @@ module.exports = {
 };
 ```
 
-Add the script to package.json
+**Add the script to package.json**
 
 ```json
   "scripts": {
@@ -57,7 +57,7 @@ Add the script to package.json
   }
 ```
 
-Create a css folder and styles.css file
+**Create a css folder and styles.css file**
 
 Import the node\_modules to the styles.css file
 
@@ -66,12 +66,13 @@ Import the node\_modules to the styles.css file
 @import "../node_modules/todomvc-app-css/index.css";
 ```
 
-Create the dist folder and bundle.js
+**Create the dist folder and bundle.js**
 
 ```
 npm run build
 ```
 
+**Modify index.html**\
 Remove or comment the link to the styles in the index.html, we don't need to refer them since we are not getting the styles via the bundle.js
 
 ```html

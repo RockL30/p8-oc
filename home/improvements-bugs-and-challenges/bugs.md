@@ -1,18 +1,18 @@
 # 🐞 Bugs
 
-addditem
+**addditem**
 
 in js/controller.js, we changed the addditem to additem
 
 <figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>addItem</p></figcaption></figure>
 
-Todo IDs
+**Todo IDs**
 
 In the js/store.js file, we modified the way the ID was generated to be more unique with date.
 
 <figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Todo IDs</p></figcaption></figure>
 
-removeItem
+**removeItem**
 
 in js/controller.js, we simplified the removeItem
 
