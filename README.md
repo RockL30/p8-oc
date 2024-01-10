@@ -1,13 +1,24 @@
-# Project 8 of the OpenClassrooms Front-End Developer Path
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
+# Home
 
 ## Overview
- - Analyze, debug, test, improve, and document an existing project.
+
+* Analyze, debug, test, improve, and document an existing project.
 
 ## Project Status
- - Completed
 
-## Documentation
- - To see the documentation, [click here](https://todo-wiki.gitbook.io/todo-wiki/).
-
-
+* Completed
 

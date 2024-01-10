@@ -1,4 +1,4 @@
-# ❓ Lighthouse
+# Lighthouse
 
 **Note**:\
 To avoid bugs and errors obtained from installed extensions, I recommend installing the free version of chrome designed for developers, this browser will provide a separate clean chrome without any extensions, additionally it also provides extra tools for developers.

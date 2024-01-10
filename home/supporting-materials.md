@@ -1,4 +1,4 @@
-# ❓ Supporting Materials
+# Supporting Materials
 
 * [Github pages](https://pages.github.com/)
 * [Jasmine ](https://jasmine.github.io/)
