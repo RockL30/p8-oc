@@ -1,2 +1,11 @@
 @import "../node_modules/todomvc-common/base.css";
 @import "../node_modules/todomvc-app-css/index.css";
+
+body {
+  min-width: 14.38vw; /* 230px / 1600px = 0.14375 */
+  max-width: 34.38vw; /* 550px / 1600px = 0.34375 */
+}
+.info {
+  /* changed font size */
+  font-size: 12px;
+}
