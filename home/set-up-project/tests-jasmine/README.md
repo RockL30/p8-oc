@@ -4,10 +4,6 @@ description: Jasmine is a behavior-driven development framework for testing Java
 
 # Tests: Jasmine
 
-{% content-ref url="run-jasmine.md" %}
-[run-jasmine.md](run-jasmine.md)
-{% endcontent-ref %}
-
 Related:
 
 {% content-ref url="../../tests/how-to-create-tests.md" %}
