@@ -15,4 +15,4 @@
 ## Documentation and Demo
 
 * To see the documentation, [click here](https://todo-wiki.gitbook.io/todo-wiki/).
-* To see a live version [click here]([url](https://rockl30.github.io/p8-oc/)https://rockl30.github.io/p8-oc/)
+* To see a live version [click here]([[url](https://rockl30.github.io/p8-oc/)https://rockl30.github.io/p8-oc/)https://rockl30.github.io/p8-oc/)https://rockl30.github.io/p8-oc/]
